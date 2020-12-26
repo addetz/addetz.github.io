@@ -26,7 +26,7 @@ github_username:  classic_addetz
 markdown: kramdown
 theme: minima
 minima:
-  skin: solarized-dark
+  skin: solarized
 plugins:
   - jekyll-feed
 
