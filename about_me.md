@@ -26,7 +26,7 @@ You can see a little bit more about my background here.
 
 
 **B.Eng. Information and Communication Technology** <br />
-Copenhagen University College of Engineering, Class of 2011
+[Copenhagen University College of Engineering](https://www.diplom.dtu.dk/english), Class of 2011
 
 ## Other stuff I like
 
