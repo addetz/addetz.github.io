@@ -1,0 +1,50 @@
+<style>
+    img.centered {
+        display: block;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .row {
+        width: 100%;
+        display: flex;
+    }
+    
+    .col {
+        width: 46%;
+    }
+    
+    .separator{
+        width: 8%;
+    }
+    
+    
+    @media screen and ( max-width: 500px) {
+        .row {
+            flex-direction: column;
+        }
+        .col {
+            width: 100%;
+        }
+        .separator {
+            width: 0;
+        }
+    }
+    
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="centered" src="assets/seven_sisters.jpeg" alt="Seven Sisters">
+        </div>
+        <div class="separator"></div>
+        <div class="col">
+            <img class="centered" src="assets/machu_picchu.jpeg" alt="Machu Picchu">
+        </div>
+    </div>
+</div>
