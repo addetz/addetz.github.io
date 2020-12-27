@@ -5,7 +5,7 @@ title:  "About me"
 
 I'm Romanian, brought up in Denmark and currently living in London for the past 6 years.
 
-I was a Java Back End engineer for about 4 years, after which I converted to Go. <br />
+I was a Java Back End engineer for about 4 years, after which I converted to Go.
 I now write Go full time and loving it!
 
 You can see a little bit more about my background here.
@@ -32,6 +32,6 @@ You can see a little bit more about my background here.
 
 I also like to hike and go on country walks. 
 
-Enjoy these excellent photos of me at the Seven Sisters in the UK and on Machu Picchu in Peru.
+Here are some excellent photos of me at the Seven Sisters in the UK and on Machu Picchu in Peru for you to enjoy.
 
 <div> {% include hiking.html %}</div>
