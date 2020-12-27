@@ -30,7 +30,7 @@ You can see a little bit more about my background here.
 
 ## Other stuff I like
 
-I also like to hike and go to spin class. 
+I also like to hike and go on country walks. 
 
 Enjoy these excellent photos of me at the Seven Sisters in the UK and on Machu Picchu in Peru.
 
