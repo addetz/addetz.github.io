@@ -23,10 +23,10 @@ I've worked for a few different sectors - mostly in financial consulting and sta
 I've always been a Back End engineer, so my Front End knowledge is pretty much non-existent (which explains the basic appearance of this site! Sorry to all the pros out there!). 
 
 I worked with Java until 2018, when I switched jobs and converted to Go. 
-The conversion to Go wasn't super easy, but it was definitely manageable and I was able to do learn on the job. 
+The conversion to Go wasn't super easy, but it was definitely manageable and I was able to learn on the job. 
 (I read a few books and took some Udemy courses. I will probably tell you more about that in a separate post.)
 
-I was invited to speak at GoLab 2019, a Go conference in Florence.  I ran a 3hr and 45min workshop titled [Go apps 101 - How to build and test them](https://talks.godoc.org/github.com/addetz/go_apps_101_slides/golab19.slide#1).
+I was invited to speak at GoLab 19, a Go conference in Florence, in the autumn of 2019. I ran a 3hr and 45min workshop titled [Go apps 101 - How to build and test them](https://talks.godoc.org/github.com/addetz/go_apps_101_slides/golab19.slide#1).
 Putting the workshop together was such a Herculean effort that it is something I continue to be proud of achieving only after a year of writing Go.
 
 <div> {% include golab.html %}</div>
