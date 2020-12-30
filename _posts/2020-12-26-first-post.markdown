@@ -3,7 +3,10 @@ layout: post
 title:  "First post!"
 date:   2020-12-26
 categories: intro
+description: This is my first post. Have a seat, let's get to know each other!
 ---
+
+{% include read_time.html %}
 
 Hello everyone! 
 
@@ -38,7 +41,7 @@ I want to give my perspective on work, life, tech and everything in between.
 
 I want to share things that I've learned from my victories and most importantly failures (of which there have been a fair few!) throughout my diverse tech career. 
 
-I've learned to work with a large variety of people, colleagues and clients alike, and I can definitely say that communication skills are very important for good engineers. These softer skills will also definitely feature in this blog alongside tech material. 
+I've learned to work with a large variety of people, colleagues and clients alike, and I can definitely say that communication skills are very important for good engineers. These softer skills will also feature in this blog alongside tech material. 
 
 Most importantly, I hope to remind everyone that we are all people, working in an incredibly complex and fast changing field, doing our best to have a long-lasting career in tech. It's so important to share and learn from each other, so that we can have a sense of community.
 

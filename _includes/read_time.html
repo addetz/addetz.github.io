@@ -1,0 +1,20 @@
+<style>
+    .reading-time {
+       font-style: italic;
+    }
+</style>
+
+<div class="reading-time">
+  <p>
+    Estimated reading time:
+    {% capture words %}
+        {{ page.content | strip_html| number_of_words }}
+    {% endcapture %}
+    {% assign wordCount = words | times: 1 %}
+    {% if wordCount < 360 %}
+        1 min
+    {% else %}
+        {{ wordCount | divided_by:180 }} mins
+    {% endif %}
+  </p>
+</div>
