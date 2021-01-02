@@ -35,7 +35,7 @@ Traditionally, you would have been invited into the office for the full loop int
 Without the office visit, it might be hard to get an idea of what working there might be like. 
 
 ### Interview questions
-- **What would a typical week/sprint look like for me?** - this interesting question will give you an idea of what the day to day work will be like and whether it suits you. You'd want to find out what the working schedule will be like, how much flexi time they offer and what regular meetings would be part of your schedule
+- **What would a typical week/sprint look like for me?** - this interesting question will give you an idea of what the day to day work will be like and whether it suits you. You'd want to find out what the working schedule will be like, how much flex time they offer and what regular meetings would be part of your schedule
 - **What are your long term plans regarding remote work?** - you should make sure that their long term plans will suit you - whether you wish to be permanently remote or not, your prospective employer should be aligned to what you're looking for 
 - **What is your Learning&Development(L&D) culture like?** - the L&D culture is a good indicator of how dedicated the company is to investing into the growth of their employees and whether they might be a good fit for you longer term
 

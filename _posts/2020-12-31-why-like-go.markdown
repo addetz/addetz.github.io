@@ -20,7 +20,7 @@ I'm going to use this post to nail down an answer to this dreaded question.
 ## What the question means
 The question is ambiguous, but it has been posed to me in this form. Even though I write Go code daily, I wouldn't say I have any personal feelings of "like" towards it. 
 
-The question is meant to be a conversation starter about the usage and strenghts of Go.
+The question is meant to be a conversation starter about the usage and strengths of Go.
 In my experience, the answer should touch upon the broad areas presented below. 
 
 ## Writing & deploying Go code
