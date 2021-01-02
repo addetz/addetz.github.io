@@ -20,7 +20,7 @@ The London tech scene is competitive, but I've really enjoyed working with some 
 
 <div> {% include london.html %}</div>
 
-I've worked for a few different sectors - mostly in financial consulting and startups (even though the term is used liberally nowadays, they were technically startups!). You can read more about my experience in my [About me]({% link about_me2.md %}) section.
+I've worked for a few different sectors - mostly in financial consulting and startups (even though the term is used liberally nowadays, they were technically startups!). You can read more about my experience in my [About me]({% link about_me.md %}) section.
 
 
 I've always been a Back End engineer, so my Front End knowledge is pretty much non-existent (which explains the basic appearance of this site! Sorry to all the pros out there!). 

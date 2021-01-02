@@ -5,7 +5,7 @@ title:  "About me"
 
 I'm Romanian, brought up in Denmark and currently living in London for the past 6 years.
 
-I was a Java Back End engineer for about 4 years, after which I converted to Go.
+I was a Java Back End engineer for about 4 years, after which I converted to Go in 2018.
 I now write Go full time and loving it!
 
 You can see a little bit more about my background here.
