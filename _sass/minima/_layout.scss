@@ -260,5 +260,9 @@
 }
 
 img.tags-icon {
-    width: 2%;
+    width: 2.5%;
+    @include media-query($on-palm) {
+        width: 5%;
+    }
 }
+
