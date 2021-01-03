@@ -3,6 +3,7 @@ layout: post
 title:  "First post!"
 date:   2020-12-26
 categories: intro
+tags: intro about
 description: This is my first post. Have a seat, let's get to know each other!
 ---
 

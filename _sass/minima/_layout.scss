@@ -253,3 +253,12 @@
     }
   }
 }
+.tags-container {
+    @include relative-font-size(0.9);
+    color: $grey-color;
+    width: 100%;
+}
+
+img.tags-icon {
+    width: 2%;
+}
