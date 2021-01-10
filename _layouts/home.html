@@ -9,5 +9,28 @@ layout: default
 
   {{ content }}
 
-
+  <h2 class="page-heading"><a href="{{site.baseurl}}/blog">Latest blog post</a></h2>
+  <div class="blog">
+    {%- if site.posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in site.posts limit:1-%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3 class="blog-header">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+            <div class="tags-container">
+              <img class="tags-icon" src="{{site.baseurl}}/assets/tags.png" alt="tags">
+              Tags:
+              {{ post.tags | join: ', '}}
+            </div>
+          </h3>
+            {{ post.description }}
+        </li>
+        {%- endfor -%}
+      </ul>
+  {%- endif -%}
+    <h2>Thanks for stopping by!</h2>
 </div>
