@@ -4,7 +4,7 @@ title:  "Fighting new remote job fears"
 date:   2020-12-28
 author: Adelina Simion
 categories: jobs
-description: I've recently gone through the process of getting a new remote job and I'm here to combat new job fears that I've experienced myself. The antidote? A mixture of interview questions to help you make informed decisions and actions to take after starting a new role to set you up for a successful onboarding and probation experience once you take the plunge.
+description: I've recently gone through the process of getting a new remote job and I'm here to combat new job fears that I've experienced myself. The antidote? A mixture of interview questions to help you make informed decisions and actions to take after starting a new role to set you up for a successful onboarding and probation experience once you take the plunge. Have no fear, Adelina is here!
 tags: remote interviews
 ---
 {% include read_time.html %}

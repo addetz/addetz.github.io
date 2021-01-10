@@ -4,7 +4,7 @@ title:  "Why do you like Go?"
 date:   2020-12-31
 author: Adelina Simion
 categories: go
-description: I was asked this question - "Why do you like Go?" - during several job interviews. The question itself is not tough, but it is broad and full of opportunities to trip up. It's difficult to distill your thoughts into a coherent answer in a high pressure situation. I'm going to use this post to nail down an answer to this dreaded question.
+description: I was asked this question - "Why do you like Go?" - during several job interviews. The question itself is not tough, but it is broad and full of opportunities to trip up. It's difficult to distill your thoughts into a coherent answer in a high pressure situation. I'm going to use this post to nail down an answer to this dreaded question. Let's Go!
 tags: go interviews
 ---
 {% include read_time.html %}
