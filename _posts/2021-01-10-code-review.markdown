@@ -4,13 +4,13 @@ title:  "A little more code review please!"
 date:   2021-01-10
 categories: jobs
 tags: dev remote
-description: Most of us working in software engineering can agree that code reviews are important and should be a priority, no matter how busy our calendars get. However, I have seen my fair share of teams that have struggled to carry out their best code review intentions into sustained working process. In this post, I will discuss some code review best practices for both authors and reviewers, so that we can make the process as efficient and enjoyable as possible. A little less conversation, a little more code review please!
+description: Most of us working in software engineering can agree that code reviews are important and should be a priority, no matter how busy we get. However, I have seen my fair share of teams that have struggled to carry out their best code review intentions into sustained working process. In this post, I will discuss some code review best practices for both authors and reviewers, so that we can make the process as efficient and enjoyable as possible. A little less conversation, a little more code review please!
 
 ---
 
 {% include read_time.html %}
 
-Most of us working in software engineering can agree that code reviews are important and should be a priority, no matter how busy our calendars get. However, I have seen my fair share of teams that have struggled to carry out their best code review intentions into sustained working process.
+Most of us working in software engineering can agree that code reviews are important and should be a priority, no matter how busy we get. However, I have seen my fair share of teams that have struggled to carry out their best code review intentions into sustained working process.
 
 In this post, I will discuss some code review best practices for both authors and reviewers, so that we can make the process as efficient and enjoyable as possible.
 
