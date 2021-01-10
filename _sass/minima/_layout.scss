@@ -270,6 +270,8 @@ img.tags-icon {
   overflow: hidden;
   position: relative;
   width:100%;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .video-container::after {
