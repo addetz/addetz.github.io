@@ -15,8 +15,9 @@ Most of us working in software engineering can agree that code reviews are impor
 In this post, I will discuss some code review best practices for both authors and reviewers, so that we can make the process as efficient and enjoyable as possible.
 
 **A little less conversation, a little more code review please!**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WWVMXLSS1cA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/WWVMXLSS1cA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Code review, what is it good for?
 [*Code review*](https://en.wikipedia.org/wiki/Code_review), or *peer code review*, is the process through which the **code author** gets their colleagues/peers to check their work. The author typically submits a **pull request(PR)** which contains the implementation of all the changes they are proposing. The author's colleagues typically read and make recommendations on the implemented code changes becoming **code reviewers**.
@@ -31,7 +32,9 @@ A few of the benefits of code reviews are:
 
 Code reviews are a very worthwhile time investment and are an essential tool for any team delivering stable production software.  *Unlike war, code reviews are good for many things!* 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/01-2pNCZiNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/01-2pNCZiNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Code review, where did we go wrong?
 Some ways I have seen the code review process go wrong are: 
@@ -41,7 +44,9 @@ Some ways I have seen the code review process go wrong are:
 
 When it goes wrong, the code review process cannot give us the benefits discussed in the previous section. Code reviews then become a cumbersome annoyance that we avoid and ignore. *When code reviews go wrong, it is all our fault!* 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dEw_t9jR8Yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dEw_t9jR8Yc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## I'm gonna write you a PR! 
 Having looked at the benefits of code reviews and how they can go wrong, it's time to discuss what we can do as code authors to make the process smooth and enjoyable for code reviewers. The author starts the whole process and has a vested interest in making sure reviewers can make the best recommendations for their work.
@@ -54,7 +59,9 @@ In my experience, code authors should ensure that they:
 
 Code changes which are well defined, well tested and provide sufficient context are a joy to review. *As long as your code changes follow these simple rules, you can write me a PR any time!*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qi7Yh16dA0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/qi7Yh16dA0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## These PRs are made for reviewing!
 Finally, once good code changes are submitted for review, it is time for the code reviewers to shine and do their best work! The code review itself should be an enriching and constructive process for all. 
@@ -67,7 +74,10 @@ In my experience, code reviewers should:
 - **Agree on a team wide review turnaround time**: my recommendation is that the team agree on a code review turnaround time and collectively enforce it, to avoid code changes being blocked awaiting for review. Once this is agreed, team members can block their calendars accordingly to ensure that they have the appropriate bandwidth to deliver these reviews in the agreed time frame
 
 Code reviewers play a crucial role in shipping stable features at speed. Prioritize unblocking others and *review these these PRs that are made for reviewing.*
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SbyAZQ45uww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SbyAZQ45uww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Parting words
 Code reviews are such an important engineering tool: helping us deliver stable software, learn from each other and ensure we are shipping the best solutions. Engineers frequently change hats between code author and code reviewer during daily work, so keeping in mind what to do to make the other person's job easier will ensure that the process remains efficient and enjoyable for everyone involved.
