@@ -12,21 +12,21 @@ You can see a little bit more about my background here.
 
 ## Work
 
-- **Aug 2020** - **Present**: Senior Software Engineer @ [Cytora](https://cytora.com/)
-- **Oct 2018** - **Jul 2020**: Software Engineer, Back End @ [Deliveroo](https://deliveroo.com/)
-- **Nov 2016** - **Sep 2018**: Senior Consultant @ [Alfa Systems](https://alfasystems.com/)
-- **Jul 2015** - **Oct 2016**: Consultant @ [Alfa Systems](https://alfasystems.com/)
+- **Aug 2020** - **Present**: Senior Software Engineer @ <a href= "https://cytora.com/" target="_blank">Cytora</a>
+- **Oct 2018** - **Jul 2020**: Software Engineer, Back End @ <a href= "https://deliveroo.com/" target="_blank">Deliveroo</a>
+- **Nov 2016** - **Sep 2018**: Senior Consultant @ <a href= "https://alfasystems.com/" target="_blank">Alfa Systems</a>
+- **Jul 2015** - **Oct 2016**: Consultant @ <a href= "https://alfasystems.com/" target="_blank">Alfa Systems</a>
 - **May 2014** - **Jul 2015**: Graduate Java Developer @ Geonomics(Dissolved)
-- **Nov 2013** - **Apr 2014**: Technical Consultant @ [Accenture](https://www.accenture.co)
+- **Nov 2013** - **Apr 2014**: Technical Consultant @ <a href= "https://accenture.com/" target="_blank">Accenture</a>
 
 ## Education
 
 **M.Sc. Mathematical Modeling and Computing** <br />
-[Technical University of Denmark](https://www.dtu.dk/english), Class of 2013
+<a href= "https://www.dtu.dk/english" target="_blank">Technical University of Denmark</a>, Class of 2013
 
 
 **B.Eng. Information and Communication Technology** <br />
-[Copenhagen University College of Engineering](https://www.diplom.dtu.dk/english), Class of 2011
+<a href= "https://www.diplom.dtu.dk/english" target="_blank">Copenhagen University College of Engineering</a>, Class of 2011
 
 ## Other stuff I like
 

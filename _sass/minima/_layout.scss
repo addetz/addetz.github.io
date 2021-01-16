@@ -253,6 +253,10 @@
     }
   }
 }
+
+/**
+  My custom stuff
+*/
 .tags-container {
     @include relative-font-size(0.9);
     color: $grey-color;
@@ -288,3 +292,55 @@ img.tags-icon {
   height: 100%;
 }
 
+img.resized {
+  display: block;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+figcaption.imgcap {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+}
+
+.col {
+  width: 47%;
+}
+
+.separator{
+  width: 6%;
+}
+
+@media screen and ( max-width: 500px) {
+  .row {
+      flex-direction: column;
+  }
+  .col {
+      width: 100%;
+  }
+  .separator {
+      width: 0;
+  }
+}
+
+img.face {
+  display: block;
+}
+
+.reading-time {
+  font-style: italic;
+}
