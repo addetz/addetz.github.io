@@ -3,9 +3,8 @@ layout: post
 title:  "A little more code review please!"
 date:   2021-01-10
 categories: jobs
-tags: dev remote
+tags: career
 description: Most of us working in software engineering can agree that code reviews are important and should be a priority, no matter how busy we get. However, I have seen my fair share of teams that have struggled to carry out their best code review intentions into sustained working process. In this post, I will discuss some code review best practices for both authors and reviewers, so that we can make the process as efficient and enjoyable as possible. A little less conversation, a little more code review please!
-
 ---
 
 {% include read_time.html %}
@@ -20,9 +19,9 @@ In this post, I will discuss some code review best practices for both authors an
 </div>
 
 ## Code review, what is it good for?
-[*Code review*](https://en.wikipedia.org/wiki/Code_review), or *peer code review*, is the process through which the **code author** gets their colleagues/peers to check their work. The author typically submits a **pull request(PR)** which contains the implementation of all the changes they are proposing. The author's colleagues typically read and make recommendations on the implemented code changes becoming **code reviewers**.
+<a href="https://en.wikipedia.org/wiki/Code_review" target="_blank">Code review</a>, or *peer code review*, is the process through which the **code author** gets their colleagues/peers to check their work. The author typically submits a **pull request(PR)** which contains the implementation of all the changes they are proposing. The author's colleagues typically read and make recommendations on the implemented code changes becoming **code reviewers**.
 
-As mentioned in the intro, everyone seems to agree that code reviews are generally a good idea and they have been thoroughly discussed in [articles](https://leanpub.com/whattolookforinacodereview), [blogs](https://smartbear.com/learn/code-review/why-review-code/) and [books](https://www.amazon.co.uk/Implementing-Effective-Code-Reviews-Maintain-ebook/dp/B08HGLTRPM/). 
+As mentioned in the intro, everyone seems to agree that code reviews are generally a good idea and they have been thoroughly discussed in <a href="https://leanpub.com/whattolookforinacodereview" target="_blank">articles</a>, <a href="https://smartbear.com/learn/code-review/why-review-code/" target="_blank">blogs</a> and <a href="https://www.amazon.co.uk/Implementing-Effective-Code-Reviews-Maintain-ebook/dp/B08HGLTRPM/" target="_blank">books</a>. 
 
 A few of the benefits of code reviews are:
 - **Better code quality**: code reviewers can find defects or edge cases that the author has not considered before they are deployed to production. The cost of code review time is infinitesimal compared to the potential cost of a production outage 
@@ -53,7 +52,7 @@ Having looked at the benefits of code reviews and how they can go wrong, it's ti
 
 In my experience, code authors should ensure that they:
 - **Easily share proposed code changes**: the proposed code changes should be easy to access and read. I mentioned earlier that code changes are typically shared by raising a pull request(PR) and sharing it with reviewers. PRs are hosted on Github, or a similar service, where the reviewers can view and comment. While this is common practice, simply extracting a diff file and sharing it would do the trick as well, as what is most important is giving reviewers a way to easily see the proposed code changes at a time that suits them
-- **Write meaningful commit messages**: commit messages are the first thing that code reviewers see when they start the review. They should be well written and offer context to what the changes are aiming to achieve. They should also link to any tickets/issues they are fixing to ensure traceability. [Go's contribution guidelines to good commit messages](https://golang.org/doc/contribute.html#commit_messages) offers some very good recommendations on commit messages 
+- **Write meaningful commit messages**: commit messages are the first thing that code reviewers see when they start the review. They should be well written and offer context to what the changes are aiming to achieve. They should also link to any tickets/issues they are fixing to ensure traceability. <a href="https://golang.org/doc/contribute.html#commit_messages" target="_blank">Go's contribution guidelines to good commit messages]</a> offers some very good recommendations on commit messages 
 - **Keep code changes small**: it is tempting to extend scope and implement several things in the same code commit. This is a tendency that is common with less experienced engineers, and a mistake I often made in the beginning of my career. Large code changes are hard to test, stabilize and review. Remember that a code commit does not have to fix a whole ticket. A single code change should be a small, testable piece of work that achieves only one single piece of functionality. It should be complete, but should not attempt to do more than its small scope. This will allow reviewers to focus on the one change and reduce review time, making it easier to fit into their schedule
 - **Allow the entire team to see the proposed change**: make sure that code changes are shared with the team and assigned to appropriate code reviewers. Share the code change on the correct channels and ensure everyone in the team is aware of the change. Reviewers with the correct expertise should be assigned for review, going outside the team if necessary
 
