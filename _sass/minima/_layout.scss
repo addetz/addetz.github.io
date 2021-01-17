@@ -50,7 +50,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: #f0e0fa;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -387,3 +387,62 @@ img.face {
   margin-bottom: $spacing-unit / 2;
   margin-top: $spacing-unit / 2 ;
 }
+
+.subscribe-btn {
+  background-color: $brand-color;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  line-height: $base-line-height;
+  padding: 5px 10px;
+  opacity: 0.8;
+}
+.subscribe-btn:hover {
+  opacity: 1;
+}
+
+  .subscribe-text{
+    color: #383838;
+  }
+
+  .formPopup {
+    display: block;
+    border: 3px solid $brand-color;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .formContainer {
+    max-width: 300px;
+    padding: $spacing-unit / 2;
+    background-color: whitesmoke;
+  }
+
+  .formContainer input[type=text] {
+    width: 100%;
+    padding: $spacing-unit / 2;
+    margin: 5px 0 $spacing-unit / 3 0;
+    border: none;
+    background: #eee;
+  }
+  .formContainer input[type=text]:focus{
+    background-color: $grey-color-light;
+    outline: none;
+  }
+  .formContainer .btn {
+    padding: $spacing-unit / 3 $spacing-unit / 2;
+    border: none;
+    background-color: $brand-color;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: $spacing-unit / 3;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  .formContainer .cancel {
+  background-color: #a11a1a;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }

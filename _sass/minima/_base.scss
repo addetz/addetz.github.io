@@ -215,6 +215,10 @@
      fill: #{$brand-color};
      padding-right: 5px;
      vertical-align: text-top;
+     opacity: 0.8;
+ }
+ .svg-icon:hover{
+   opacity: 1;
  }
  .social-media-list {
    li + li {

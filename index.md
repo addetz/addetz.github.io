@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<div> {% include homepage.html %}</div>
+{% include homepage.html %}
