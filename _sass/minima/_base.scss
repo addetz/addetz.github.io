@@ -213,7 +213,7 @@
      height: 40px;
      display: inline-block;
      fill: #{$brand-color};
-     padding-right: 5px;
+     padding-right: $spacing-unit / 2;
      vertical-align: text-top;
      opacity: 0.8;
  }
