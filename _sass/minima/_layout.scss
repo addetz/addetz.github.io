@@ -297,6 +297,15 @@ img.resized {
   margin: 0 auto;
 }
 
+img.fullSize {
+  display: block;
+  width: 100%;
+}
+
+figure.centered {
+  margin: $spacing-unit/2 auto;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
