@@ -27,11 +27,13 @@ Insert your persuasive elevator pitch here
 - Choose a fun, but descriptive title for your talk
 - Include any technologies you intend to showcase
 - Describe the format of your talk ie live coding, demo app etc.
+
 ## Overview
 Insert longer description of your talk here: 
 - Who is your intended audience? 
 - Why is it worth learning about your chosen topic? 
 - What is the angle you'll take on your topic? 
+
 ## Structure
 Divide your talk into 3-4 rough sections
 Describe each section in detail: 
@@ -39,6 +41,7 @@ Describe each section in detail:
 - What will the audience take away from this section? 
 - How does it cohesively hang together with the previous/next section?
 - Include any rough points you intend to highlight
+
 ## Conclusions
 Write a small paragraph describing exactly what we will learn from you
 Keep the tone of this paragraph upbeat, encouraging people to attend your talk
