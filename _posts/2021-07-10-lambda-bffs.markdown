@@ -18,7 +18,7 @@ My talk for <a href="https://gophercon.eu/" target="_blank">GopherconEU 2021</a>
 </div>
 
 ## The Pitch
-Your pitch is you first and only chance to impress the conference organizers and convince them to choose your talk for their event. While some established conference speakers are invited to speak without pitching, most conferences will open a Call for Papers where anyone can pitch a talk. To keep things fair, organizers will then choose pitches from their Call for Papers without seeing the name and profile of the author.
+Your pitch is your first and only chance to impress the conference organizers and convince them to choose your talk for their event. While some established conference speakers are invited to speak without pitching, most conferences will open a Call for Papers where anyone can pitch a talk. To keep things fair, organizers will then choose pitches from their Call for Papers without seeing the name and profile of the author.
 
 The skeleton/structure I use for my pitches is: 
 ```markdown
@@ -50,7 +50,7 @@ Keep the tone of this paragraph upbeat, encouraging people to attend your talk
 You can see the entire pitch for my talk on <a href="https://www.papercall.io/talks/198726" target="_blank">PaperCall.io</a>.
 
 ## The Preparation
-Okay, you've been selected to speak now! Fantastic. 
+Okay, you've been selected to speak! Fantastic.
 Now it's time to start preparing in good time to make sure that you are doing justice to yourself and your pitch. 
 
 Here are some helpful tips I've used during my conference preparation: 
