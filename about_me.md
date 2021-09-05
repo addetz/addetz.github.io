@@ -12,7 +12,8 @@ You can see a little bit more about my background here.
 
 ## Work
 
-- **Aug 2020** - **Present**: Senior Software Engineer @ <a href= "https://cytora.com/" target="_blank">Cytora</a>
+- **Sept 2021** - **Present**: Technology Evangelist @ <a href= "https://form3.tech/" target="_blank">Form3</a>
+- **Aug 2020** - **Aug 2021**: Senior Software Engineer @ <a href= "https://cytora.com/" target="_blank">Cytora</a>
 - **Oct 2018** - **Jul 2020**: Software Engineer, Back End @ <a href= "https://deliveroo.com/" target="_blank">Deliveroo</a>
 - **Nov 2016** - **Sep 2018**: Senior Consultant @ <a href= "https://alfasystems.com/" target="_blank">Alfa Systems</a>
 - **Jul 2015** - **Oct 2016**: Consultant @ <a href= "https://alfasystems.com/" target="_blank">Alfa Systems</a>
