@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "About me"
+title:  "About me 👋 "
 ---
 
 I'm Romanian, brought up in Denmark and currently living in London for the past 6 years.
