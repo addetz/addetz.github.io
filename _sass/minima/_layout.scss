@@ -334,6 +334,10 @@ img.centered {
   width: 6%;
 }
 
+.halfSize {
+  width: 50%;
+}
+
 @media screen and ( max-width: 500px) {
   .row {
       flex-direction: column;
@@ -343,6 +347,10 @@ img.centered {
   }
   .separator {
       width: 0;
+  }
+
+  .halfSize {
+    width: 100%;
   }
 }
 
