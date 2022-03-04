@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Nevertheless, Adelina coded"
+date:   2022-03-03
+categories: jobs
+tags: SheCoded career
+description: In this post, I share some of my tech story as part of the Dev.to SheCoded campaign, organised on the occasion of International Women's Day 2022. I won't be using names of individuals or companies in this retelling, but if you recognise yourself in the narrative, don't reach out to me with an explanation or justification. Just DO BETTER THAN YOU'VE BEEN DOING!
+---
+
+{% include read_time.html %}
+
+In this post, I share some of my tech story as part of the [Dev.to SheCoded campaign](https://dev.to/devteam/share-your-2022-shecoded-story-to-donate-20-to-closing-the-tech-gender-gap-2hid), organised on the occasion of International Women's Day 2022. I won't be using names of individuals or companies in this retelling, but if you recognise yourself in the narrative, don't reach out to me with an explanation or justification. Just DO BETTER THAN YOU'VE BEEN DOING!
+
+**So, let's begin.**
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+            <a href="https://media.giphy.com/media/Ymo8G7SGzk63YRqZai/giphy.gif" target="_blank">
+                <img class="fullSize" src="https://media.giphy.com/media/Ymo8G7SGzk63YRqZai/giphy.gif" alt="Do better">
+            </a>
+        </figure>
+    </div>
+</div>
+
+## Going to university
+Being a woman does sometimes feels like drawing the short straw. Being an Eastern European woman on this wonderful continent 🇪🇺 sometimes feels like getting that already short straw broken in half. I am proud to be Romanian 🇷🇴 and I lived most of my life abroad, over two decades now. My family and I have lived through many prejudices for our accent, hair colour and "funny ways".
+
+Throughout my entire life, I have had the good fortune of having the support of my mother, father and older brother. They have been my compass, my strength and my unwavering supporters. ❤️
+
+When I was 18, under the guidance of my family, I enrolled into the IT Engineering programme at the Technical University of Denmark in 2007. Yes, I did choose it because we thought it would be a lucrative career. When you are trying to make it in one of the most expensive places in Europe, you don't have the luxury of discovering what your passion or dream job is.
+
+## My university "friends" 
+I arrived at university wide eyed and excited. The first two years were absolutely brutal - writing code didn't come naturally to me, the subject matter was terse and I had to put in a lot of hours of studying. 
+However, my dilligence did eventually pay off and I started getting high marks. 
+
+My university colleagues and "friends" made many sexist and callous remarks. One person flat out accused me of sleeping with the 60 year old male professor, another accused me of getting the grade because of the outfit I wore. Finally, when we were assigned a female professor, I was accused of getting the grade because we were both women. 
+
+Some of my professors weren't exactly stellar either. One of them told me that if I wore red nail polish again he would flunk me as he found it too "aggressive"... and while I was at it I should get rid of the makeup too!
+
+All of this had long term repercussions on me in the form of feeling out of place and like an impostor for much of my career. I have no doubt I would have quit if I hadn't had my family in my corner, but I graduated with a high GPA and held my head high when I received my diploma. 🎓
+
+I wish I would have stood my ground when I was treated poorly, but most importantly, I wish the few people I was close to had stood up for me. I remember the silent faces alongside those who accused me in front of everyone. Don't be a silent face in someone's forever memory. 
+
+_We must learn to be better allies for women in tech!_
+
+## The missing female mentor
+After I finished my studies, I moved to London 🇬🇧 in 2014. I was fortunate to work with some great managers and engineers in my early career. They taught me technical fundamentals, supported me and helped me improve my self esteem. 
+
+After some time, I was excited to work for my first female manager. She ended up being really tough: she told me off for "being mousy and batting your eyelashes", she forced us to deliver subpar work for tight deadlines and she would take out her bad days on the team. I have since worked with many accomplished, truly amazing women. 🤩
+
+We often hold other women to the same prejudices that we have been held to our entire lives. I strive to be the female mentor I wasn't able to find earlier in my career - to my friends, colleagues and anyone who reaches out to me. 
+
+_As women in tech, we must be better role models and mentors for each other!_
+
+## Don't say the M word
+Early in my career, I was often told what the maternity benefits packages were. They were probably trying to bolster my perception of the benefits package. I dismissed them with the wave of a hand. What's this information to me? I'm young.
+
+As I approached my 30's, I did become aware of my biological clock. The recruiters stopped mentioning their maternity packages. I became keenly aware that if I say the M word, _maternity_, it would be potentially offputting to prospective employers. So, I stayed silent and signed contracts without asking.
+
+The UK has absolutely horrible [maternity leave](https://www.gov.uk/maternity-pay-leave), compared to many European countries. The law does not protect women's income during maternity, so the private employer packages vary a lot here.
+
+I will speak out and ask about maternity packages in the future. We have to get rid of the stigma of women in their 30s asking for their rights to decent maternity protections.
+
+ _We need to support diversity in tech with generous maternity AND paternity packages!_
+
+## Parting words
+Thanks for reading all about my tech story and thoughts! It means a lot to me that you cared enough to read it. ⭐️
+All in all, I feel optimistic for the future. I do believe that things are improving, even though we are far from true gender equality. I will strive to be a positive force of change in tech. 
+
+I will leave you with some family wisdom (I'm actually not sure if this is Romanian expression, or if it's just a thing my mother says 🙈). Whenever I was sad or felt things were not going my way, my mother would say "the horses don't die when the dogs wish them to" (_nu mor caii cand vor câinii_). 
+
+The meaning of it is related to hunting. The horses and dogs take off in the hunting party. Obviously, horses have much more stamina than dogs. Naturally, the dogs tire first and exhaustedly wish the horses the worst, but they just keep running. 🐎 I suppose this is a roundabout way of saying _haters gonna hate_ 😆, but I like thinking of horses instead. 🐴
+
+_Remember, you're a majestic horse and you leave us all in your dust!_ 
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+            <a href="https://media.giphy.com/media/ByTh8UTOcOXL2/giphy.gif" target="_blank">
+                <img class="fullSize" src="https://media.giphy.com/media/ByTh8UTOcOXL2/giphy.gif" alt="Running horses">
+            </a>
+        </figure>
+    </div>
+</div>
