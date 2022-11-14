@@ -2,7 +2,6 @@
 layout: page
 title:  "Talks 🎤 "
 ---
-## Talks
 I keep my <a href="https://www.youtube.com/playlist?list=PL6bph7VaCLWned9rdGoRpPG_w0QLqcSfB" target="_blank" rel="noopener noreferrer">"Talks by Adelina Simion" YouTube playlist</a> up to date of all my speaking engagements - conference talks and podcasts included.
 You can see the playlist embedded below. 
 
@@ -10,7 +9,7 @@ You can see the playlist embedded below.
     <iframe src="https://www.youtube.com/embed/videoseries?list=PL6bph7VaCLWned9rdGoRpPG_w0QLqcSfB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## LinkedIn Learning
+# LinkedIn Learning
 I'm a LinkedIn Learning instructor. You can have a look at my <a href="https://www.linkedin.com/learning/instructors/adelina-simion" target="_blank" rel="noopener noreferrer">instructor page</a> for all my courses. 
 
 The links below make my courses **FREE/GRATIS/ZERO COST** for you 💸:
