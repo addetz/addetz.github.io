@@ -295,6 +295,7 @@ img.resized {
   display: block;
   width: 55%;
   margin: 0 auto;
+  border-radius: 25px;
 }
 
 img.fullSize {
@@ -324,6 +325,7 @@ figcaption.imgcap {
 img.centered {
   display: block;
   margin: auto;
+  border-radius: 25px;
 }
 
 .col {
@@ -356,6 +358,7 @@ img.centered {
 
 img.face {
   display: block;
+  border-radius: 25px;
 }
 
 .reading-time {
@@ -404,6 +407,39 @@ img.face {
   margin-bottom: $spacing-unit / 2;
   margin-top: $spacing-unit / 2 ;
 }
+
+.talks-title {
+  background-color: $brand-color;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  line-height: $base-line-height;
+  padding: 5px;
+  opacity: 0.8;
+  font-size: $base-font-size;
+}
+
+.talks-video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: $spacing-unit/2;
+}
+
+.talks-video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.talks-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .subscribe-btn {
   background-color: $brand-color;
