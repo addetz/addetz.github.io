@@ -2,8 +2,8 @@
 layout: post
 title:  "The Future of Code Week: Will Languages like Go and Rust Overtake their Legacy?"
 date:   2022-11-14
-categories: jobs
-tags: go career interviews
+categories: talks
+tags: go interviews
 description: In this post, I share some of my key thoughts from my LinkedIn Learning Future of Code Week episode discussing emerging languages. This session takes place on November 17th 2022. I was thrilled to be invited to share my thoughts with Marcus and Ray. 
 ---
 In this post, I share some of my key thoughts from my LinkedIn Learning Future of Code Week episode discussing emerging languages. This session takes place on November 17th 2022. I was thrilled to be invited to share my thoughts with Marcus and Ray. 
