@@ -13,7 +13,7 @@ I'm a LinkedIn Learning instructor. You can have a look at my <a href="https://w
 The links below make my courses **FREE/GRATIS/ZERO COST** for you 💸:
 - <a href="https://bit.ly/applied-conc-go" target="_blank" rel="noopener noreferrer">👉 Applied Concurrency in Go 👈</a>
 - <a href="https://bit.ly/java2go" target="_blank" rel="noopener noreferrer">👉 Transitioning from Java to Go 👈</a>
-- <a href="https://www.linkedin.com/learning/level-up-go?trk=lilblog_11-09-22_instructor-codespaces_learning" target="_blank" rel="noopener noreferrer">👉 Level Up: Go 👈</a>
+- <a href="https://bit.ly/level-up-go-free" target="_blank" rel="noopener noreferrer">👉 Level Up: Go 👈</a>
 
 <div class="container">
     <div class="row">
