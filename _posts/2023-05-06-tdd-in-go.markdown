@@ -1,0 +1,136 @@
+---
+layout: post
+title:  "Test-Driven Development in Go: principles and key concepts"
+date:   2023-05-06
+categories: go
+tags: go tdd code
+description: I recently had the pleasure of discussing and demonstrating some of the key concepts of my "Test-Driven Development in Go" book on a live stream. This post summarises the main points covered by this 1hr coding session. Understanding these testing essentials will go a long way to helping you become a TDD practitioner. Read on to see why you should care about testing and TDD!
+---
+{% include read_time.html %}
+
+I recently had the pleasure of discussing and demonstrating some of the key concepts of my ["Test-Driven Development in Go"](https://bit.ly/3UFpweU) book on [a live stream](https://bit.ly/3HG9oVh). This post summarises the main points covered by this 1hr coding session. Understanding these testing essentials will go a long way to helping you become a TDD practitioner. 
+
+**Read on to see why you should care about testing and TDD!**
+
+<div class="row">
+  <div class="col-full">
+    <div class="talks-title">​Nikita Koselev: TDD in Go​</div>
+    <div class="talks-video-container">
+      <iframe src="https://www.youtube.com/embed/46ZjWWtY6Qo" title="YouTube video player" frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+## Key principles
+
+I was keen to explore the topic of TDD in Go because it was one of the parts of the language that I had a hard time understanding, despite its simplicity. There were only a few functions available in Go's `testing` package, but  I was unsure how to use them and it seemed difficult to build any test setup. Figuring out the testing process in Go took some time, especially as most tutorials are aimed at learning language basics, not test basics. I was keen to dedicate time share my knowledge, discover new concepts myself and write a thorough guide to writing testable code with `TDD` as the working process. This is why I took on the project of writing a book dedicated to testing techniques and the application of TDD. 
+
+The book is structured around the following four basic principles:
+- **Writing testable code starts with a thorough understanding of the language you are writing in**: we need to understand the main structure and concepts of Go in order to be able to write testable code. We need to have a clear understating of concepts such as package structure, dependency injection, concurrency and more.  
+- **TDD is hard because it is difficult to have a clear vision of what we are trying to achieve when problems are ambiguous**: writing tests is easy in Go, as we use the same techniques as writing source code. Instead, the unclear understanding of the work we are trying to achieve and an over fixation on technical solutions is what makes it difficult to practice TDD. 
+- **Engineers should take ownership of testing their product at all levels, not just unit**: testing blogs & demos often focus on unit testing only. While this makes it easy for developers to write tests with small scope, engineers should take ownership of testing at all levels. This has the benefit of giving us a thorough understanding of how users will be ultimately interacting with our product, but also give us ownership of our product in a true DevOps way. 
+- **Practicing TDD can help you organise your work and stay focused on solutions to user-problems**: the TDD process involves writing tests alongside the source code. This encourages us to make conscious decisions for code structure that is focused on requirements and inputs, as opposed to get overly attached to technical solutions.
+
+Tests are typically organised in the **testing pyramid**: 
+1. At the bottom of the pyramid, we have **unit tests**, which only test a single, isolated behaviour or piece of functionality. They are the fastest and most numerous.
+1. In the middle, we have **integration tests**, which test the behaviour of multiple components together. They are complementary to unit tests, as they ensure that multiple units work well together not just individually. 
+1. At the top of the pyramid, we have **end-to-end tests**, which test the entire application. They are typically focused on validating the application exposes the correct user-facing functionality. 
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+          <img class="fullSize" src="{{site.baseurl}}/assets/tdd/testing_pyramid.png" alt="Testing pyramid">
+          <figcaption class="imgcap"><i>The core principles of the book</i></figcaption>
+        </figure>
+    </div>
+</div>
+
+## The method
+
+The Red-Green-Refactor method is the working process for TDD. It the three steps described in the figure below. In the beginning, it might be cumbersome to swap between source code and test code, but it will quickly become second nature. The three steps of the method are:
+1. **The Red phase**: based on provided requirements, we begin by writing a test with specified inputs and expected outputs. We run this test to ensure it is failing. This helps us avoid any false positives later on.
+1. **The Green phase**: swapping over to source code, we write enough code to satisfy the previously written test and implement the functionality required. We re-run this test to ensure that it is now passing.
+1. **The Refactor phase**: while the test and implementation are successfully fulfilling the requirement we have been focusing on, we can take the time to make any improvements to it in the refactor phase.
+1. The process repeats until we have successfully implemented all functionality that the unit requires.
+
+Tests should **focus on testing outputs, not implementation**. If tests are tightly coupled implementation concerns,they can become brittle when code is changed or refactored. Tests should be made as resilient to change as possible.
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+          <img class="fullSize" src="{{site.baseurl}}/assets/tdd/red_green_refactor.png" alt="Red-Green-Refactor">
+          <figcaption class="imgcap"><i>The Red-Green-Refactor TDD method</i></figcaption>
+        </figure>
+    </div>
+</div>
+
+## Unit testing essentials
+
+Now that the process and main mechanisms are established, we can start to look at how to implement our first test. We begin at the bottom of the testing pyramid with unit tests. 
+
+Go functions, structs, variables and interfaces are organised in Go packages. Their visibility is restricted to the package unless exported with a capital letter. Directories can generally only contain a single package with some exceptions. One of these exceptions are **testing packages**. These packages end with the `_test` suffix and must match the name of the source package that is also defined in the same directory. These packages behave like any other external package, only having access to the exported names of the source package. 
+
+This is a very powerful mechanism. The usage of a test package ensures that we only test the externally visible functionality of the package, making our tests the first consumers of the package we are creating. We can then clearly identify what parts of exposed functionality need to be rewritten or clarified.
+
+In Go, tests are just regular functions which comply to some restrictions:
+```go
+func TestName(t *testing.T) {
+  // implementation
+}
+```
+- Test names start with the `Test` prefix followed by the test name in camel case.
+- Test functions take a single parameter of type `*testing.T`. 
+- Tests live in `_test.go` files.
+
+The `testing` package exposes methods logging and failing tests. The `t.Error` method fails a test but continues running the test suite, while the `t.Fatal` method fails the test and stops the execution of the entire test suite. The `t.Errorf` and `t.Fatalf` method counterparts which allow us to pass messages for formatting.
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+          <img class="fullSize" src="{{site.baseurl}}/assets/tdd/unit_testing.png" alt="Unit testing essentials">
+          <figcaption class="imgcap"><i>Getting started with Go unit tests</i></figcaption>
+        </figure>
+    </div>
+</div>
+
+I demonstrate the **Red-Green-Refactor** method with a simple example and unit tests in the [live stream from timestamp 09:10](https://www.youtube.com/live/46ZjWWtY6Qo?feature=share&t=550).  
+
+## Integration testing
+
+Unit tests do not have sufficient scope to ensure that functional requirements are successfully delivered. Often times, their implementation requires the usage of multiple units or **components** working together, delivering their specialised functionality in order to build the solution. In these cases, integration tests are often times a useful way to extend scope:
+- Integration tests cover one or multiple components, ensuring that the individual components work well as a combined entity. In the microservices world, the different components might even be delivered by different teams. The integrations between these separate units are often the cause of errors or outages.
+- While the logic of the particular component is verified by its unit tests, the purpose of the integration test is to exercise the conditions at the seams between the components.
+- Integration tests have the advantage of allowing us to test bigger scope, without the complexity of having to run an entire application. As they are in the middle of the pyramid, they don't require the entire application to be ready for running and testing.
+
+<div class="container">
+    <div class="row">
+        <figure class="centered">
+          <img class="fullSize" src="{{site.baseurl}}/assets/tdd/integration_testing.png" alt="Integration tests">
+          <figcaption class="imgcap"><i>Integration tests allow us to test how well components work together</i></figcaption>
+        </figure>
+    </div>
+</div>
+
+The code required for implementing integration tests isn't any different from unit tests. I demonstrate writing integration tests using `httptest` in the [live stream from timestamp 44:38](https://www.youtube.com/live/46ZjWWtY6Qo?feature=share&t=2678). 
+
+## End-to-end testing
+
+This stream did not cover end-to-end testing. I may dedicate a future blogpost to this topic, but in the meantime, I recommend that you explore [BDD testing with `godog`](https://github.com/cucumber/godog) and [contract testing with `pact`](https://github.com/pact-foundation/pact-go).
+
+## Parting words
+
+> Let me just get this working and then I'll see how to test it. 
+
+Often times, we feel like testing code is of lower importance than source/implementation code. This way of thinking results in complex, unmaintainable code that is riddled with bugs. Spending time unpicking complex code structure for later testing takes longer than incrementally making decisions, ensuring they are easy to test and implement solutions to provided requirements. 
+
+Therefore, I encourage everyone to take the time to improve and hone their testing practices. You won't be disappointed with the results.
+
+**Happy coding, Gophers!❤️**
+
+### Resources
+
+Here are the links mentioned in the stream:
+- My [“Test-Driven Development in Go” book](https://bit.ly/3UFpweU)
+- The [slides presented in this session](https://bit.ly/3p2ZbeX)
+- The [repository with the demo code](https://github.com/addetz/gophertale)

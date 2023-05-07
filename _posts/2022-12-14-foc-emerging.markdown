@@ -6,11 +6,12 @@ categories: talks
 tags: go talks
 description: In this post, I share some of my key thoughts from my LinkedIn Learning Future of Code Week episode discussing emerging languages. This session takes place on November 17th 2022. I was thrilled to be invited to share my thoughts with Marcus and Ray. 
 ---
+{% include read_time.html %}
+
 In this post, I share some of my key thoughts from my LinkedIn Learning Future of Code Week episode discussing emerging languages. This session takes place on November 17th 2022. I was thrilled to be invited to share my thoughts with Marcus and Ray. 
 
 **Make sure to sign up to  <a href="https://bit.ly/foc-ep04" target="_blank">the event on LinkedIn!</a>**
 
-{% include read_time.html %}
 
 <div class="container">
     <div class="row">
@@ -70,6 +71,6 @@ In my opinion, the future of Go is bright ☀️:
 </div>
 
 ## Parting words
-Obviously, I'm a huge Go-lover and I believe that the language is here to stay. It's got so many cool features the Go team do a great job to improve tooling and add new features. An often underrated aspect is **community**. I'm proud to be part of the Go community, which is inclusive and welcoming. I think Gophers worldwide will continue to advocate for the language and grow.
+Obviously, I'm a huge Go lover ❤️ and I believe that the language is here to stay. It's got so many cool features the Go team do a great job to improve tooling and add new features. An often underrated aspect is **community**. I'm proud to be part of the Go community, which is inclusive and welcoming. I think Gophers worldwide will continue to advocate for the language and grow.
 
 Join the <a href="https://gophers.slack.com/" target="_blank">Gophers Slack</a>.
