@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Craft Yourself a Sustainable Career in Tech"
+title:  "Craft Yourself a Sustainable Tech Career"
 date:   2024-03-09
 categories: jobs
 tags: SheCoded career
