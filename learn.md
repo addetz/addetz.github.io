@@ -22,12 +22,12 @@ I will do giveaways of the book often, so make sure to connect with me.
 
 # Courses
 
-I'm a LinkedIn Learning instructor. You can have a look at my <a href="https://www.linkedin.com/learning/instructors/adelina-simion" target="_blank" rel="noopener noreferrer">instructor page</a> for all my courses. 
-
-The links below make my courses **FREE/GRATIS/ZERO COST** for you 💸:
-- <a href="https://bit.ly/applied-conc-go" target="_blank" rel="noopener noreferrer">👉 Applied Concurrency in Go 👈</a>
-- <a href="https://bit.ly/java2go" target="_blank" rel="noopener noreferrer">👉 Transitioning from Java to Go 👈</a>
-- <a href="https://bit.ly/level-up-go-free" target="_blank" rel="noopener noreferrer">👉 Level Up: Go 👈</a>
+I'm a LinkedIn Learning instructor. You can have a look at my <a href="https://www.linkedin.com/learning/instructors/adelina-simion" target="_blank" rel="noopener noreferrer">instructor page</a> for all my courses:
+- <a href="https://www.linkedin.com/learning/applied-concurrency-in-go" target="_blank" rel="noopener noreferrer">👉 Applied Concurrency in Go 👈</a>
+- <a href="https://www.linkedin.com/learning/transition-from-java-to-go" target="_blank" rel="noopener noreferrer">👉 Transitioning from Java to Go 👈</a>
+- <a href="https://www.linkedin.com/learning/level-up-go/level-up-your-go-skills" target="_blank" rel="noopener noreferrer">👉 Level Up: Go 👈</a>
+- <a href="https://www.linkedin.com/learning/advanced-go-programming-data-structures-code-architecture-and-testing" target="_blank" rel="noopener noreferrer">👉 Advanced Go Programming: Data Structures, Code Architecture, and Testing 👈</a>
+- <a href="https://www.linkedin.com/learning/https://www.linkedin.com/learning/go-practice-functions" target="_blank" rel="noopener noreferrer">👉 Go Practice: Functions 👈</a>
 
 <div class="container">
     <div class="row">

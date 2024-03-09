@@ -12,6 +12,7 @@ You can see a little bit more about my background here.
 
 ## Work
 
+- **Nov 2023** - **Present**: Education Engineer @ <a href= "https://www.spectrocloud.com" target="_blank">Spectro Cloud</a>
 - **Sept 2021** - **Sept 2023**: Technology Evangelist @ <a href= "https://form3.tech/" target="_blank">Form3</a>
 - **Aug 2020** - **Aug 2021**: Senior Software Engineer @ <a href= "https://cytora.com/" target="_blank">Cytora</a>
 - **Oct 2018** - **Jul 2020**: Software Engineer, Back End @ <a href= "https://deliveroo.com/" target="_blank">Deliveroo</a>
